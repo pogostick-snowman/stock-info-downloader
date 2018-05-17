@@ -51,6 +51,7 @@ namespace StockInfoCommons.GoogleFinance
 
         #region Download Helpers
 
+        // calculate stat download path based on ticker
         private static string DownloadPath(string basePath, string ticker, string exchange = "")
         {
 
